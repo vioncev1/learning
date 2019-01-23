@@ -1,0 +1,123 @@
+body {
+  margin: 0 0 0 0;
+}
+.bg {
+  position: relative;
+}
+.bg_img {
+  top: 0px;
+  width: 100%;
+}
+.top {
+  background-color:#000000;
+  width: 100%;
+  height: 1200px;
+}
+.photo {
+  opacity: 0.4;
+  width: 100%;
+  height: 1200px;
+}
+.logo {
+  position: absolute;
+  float: left;
+  top: 35px;
+  left: 40px;
+}
+.name {
+  position: absolute;
+  float: left;
+  top: 50px;
+  left: 110px;
+}
+div>a {
+  text-decoration: none;
+}
+div>a:visited {
+  color: #fff;
+}
+div>a:link {
+  color: #fff;
+}
+.search {
+  float: left;
+  width: 450px;
+  position: absolute;
+  top: 50px;
+  right: 40px;
+}
+.guide {
+  float: left;
+  margin-right: 40px;
+  font-family: franklin gothic;
+  opacity: 0.8;
+}
+.journey {
+  float: left;
+  margin-right: 40px;
+  font-family: franklin gothic;
+  opacity: 0.8;
+}
+.hotels {
+  float: left;
+  margin-right: 40px;
+  font-family: franklin gothic;
+  opacity: 0.8;
+}
+.travelers {
+  float: left;
+  margin-right: 40px;
+  font-family: franklin gothic;
+  opacity: 0.8;
+}
+.search_ico {
+
+}
+.fall {
+  float: left;
+  position: absolute;
+  top: 280px;
+  left: 37%;
+}
+div.fall {
+  height: 850px
+}
+.falltwo {
+  margin-top: 50px;
+}
+.fallfour {
+  margin-top: 20px;
+}
+.fallthree {
+  margin-top: -38px;
+}
+.fallfive {
+  margin-top: 350px;
+}
+.fallfive img {
+height: 90%;
+width: 40%;
+}
+.catigories {
+  position: relative;
+  margin-top: -210px;
+}
+.left_photo {
+  position: absolute;
+  left: 0px;
+  width: 340px;
+  height: 420px;
+}
+.left_photo img {
+  width: 340px;
+  height: 400px;
+}
+.sandomierz {
+  position: absolute;
+  left: 420px;
+  width: 340px;
+  height: 420px;
+.rigth_photo {
+  margin-left: 85%;
+  height: 420px;
+}

@@ -39,16 +39,13 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 520;
 }
-div.logo a:visited {
-  color: #fff;
-}
-div>a {
+a {
   text-decoration: none;
 }
-div.search a:visited {
+.background_top a:visited {
   color: #fff;
 }
-div>a:link {
+a:link {
   color: #fff;
 }
 .search {
@@ -149,4 +146,13 @@ div>a:link {
 }
 .button a:visited {
   color: #000;
+}
+.categories {
+  height: 100px;
+}
+.category1 {
+  background: url(../img/Photo_dark2.png) no-repeat;
+}
+.category1 {
+  
 }

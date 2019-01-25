@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,400,700&subset=cyrillic');
 body {
   margin: 0 0 0 0;
+  height: 3500px;
 }
 * {
   box-sizing: border-box;
@@ -12,6 +13,7 @@ body {
   background: url(../img/Photo.png) no-repeat;
   width: 100%;
   height: 1200px;
+  background-size: contain;
 }
 .header {
   width: 100%;
@@ -148,11 +150,49 @@ a:link {
   color: #000;
 }
 .categories {
-  height: 100px;
+  margin-top: -220px;
+  height: 430px;
 }
 .category1 {
-  background: url(../img/Photo_dark2.png) no-repeat;
+  background: url(../img/photo_dark2.png) no-repeat;
+  height: 430px;
+  width: 19%;
+  display:inline-block;
+  margin-right: 15px;
+  background-size: cover;
 }
-.category1 {
-
+.category2 {
+  background: url(../img/zakopane.png) no-repeat;
+  height: 430px;
+  width: 19%;
+  display:inline-block;
+  margin-right: 15px;
+  background-size: cover;
+}
+.category3 {
+  background: url(../img/sandomierz.png) no-repeat;
+  height: 430px;
+  width: 20%;
+  display:inline-block;
+  margin-right: 15px;
+  background-size: cover;
+}
+.category4 {
+  background: url(../img/sopot.png) no-repeat;
+  height: 430px;
+  width: 19%;
+  display:inline-block;
+  margin-right: 15px;
+  background-size: cover;
+}
+.category5 {
+  background: url(../img/photo_dark1.png) no-repeat;
+  height: 430px;
+  width: 19%;
+  display:inline-block;
+  background-size: cover;
+  float:right;
+}
+.category_link2 {
+  
 }

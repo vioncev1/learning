@@ -9,7 +9,7 @@ body {
 
 }
 .background_top {
-  background: url(../img/photo.png) no-repeat;
+  background: url(../img/Photo.png) no-repeat;
   width: 100%;
   height: 1200px;
 }
@@ -154,5 +154,5 @@ a:link {
   background: url(../img/Photo_dark2.png) no-repeat;
 }
 .category1 {
-  
+
 }

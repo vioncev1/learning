@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,400,700&subset=cyrillic');
+body {
+  margin: 0 0 0 0;
+}
+* {
+  box-sizing: border-box;
+}
+.background {
+
+}
+.background_top {
+  background: url(../img/photo.png) no-repeat;
+  width: 100%;
+  height: 1200px;
+}
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 40px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo_ico {
+  background: url(../img/logo.png) no-repeat;
+  display: block;
+  width: 55px;
+  height: 60px;
+  float: left;
+  margin-right: 20px;
+}
+.logo_name {
+  display: block;
+  float: left;
+  font-size: 26px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 520;
+}
+a {
+  text-decoration: none;
+}
+.background_top a:visited {
+  color: #fff;
+}
+a:link {
+  color: #fff;
+}
+.search {
+  display: flex;
+}
+.guide {
+  margin-right: 35px;
+  font-family: 'Montserrat', sans-serif;
+  opacity: 0.8;
+  font-size: 16px;
+  font-weight: 510;
+}
+.journey {
+  margin-right: 35px;
+  font-family: 'Montserrat', sans-serif;
+  opacity: 0.8;
+  font-size: 16px;
+  font-weight: 510;
+}
+.hotels {
+  margin-right: 35px;
+  font-family: 'Montserrat', sans-serif;
+  opacity: 0.8;
+  font-size: 16px;
+  font-weight: 510;
+}
+.travelers {
+  margin-right: 35px;
+  font-family: 'Montserrat', sans-serif;
+  opacity: 0.8;
+  font-size: 16px;
+  font-weight: 510;
+}
+.search_ico {
+  background: url(../img/search.png);
+  width: 15px;
+  height: 15px;
+  margin-top: 5px;
+}
+.middle {
+  height: 1060px;
+  width: 100%;
+
+}
+.text_top {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  color: #fff;
+  font-size: 70px;
+  font-weight: 520;
+  margin-top: 190px;
+}
+.text_top2 {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  color: rgb(237,105,80);
+  font-size: 70px;
+  font-weight: 520;
+  margin-top: -80px;
+}
+.text_mid {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  color: #fff;
+  opacity: 0.3;
+  margin-top: -70px;
+  font-size: 16px;
+}
+.text_fall {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  color: #fff;
+  margin-top: 100px;
+  margin-top: 310px;
+}
+.button {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  background-color: #ffc74a;
+  height: 50px;
+  width: 220px;
+  border-radius: 25px;
+  margin-top: 50px;
+}
+.button a {
+  color: #000;
+  display: block;
+  font-family: 'Montserrat', sans-serif;
+  margin: auto;
+  font-size: 13px;
+  height: 100%;
+  padding-top: 16px;
+  padding-left: 38px;
+  width: 100%;
+  font-weight: 510;
+  opacity: 0.4;
+}
+.button a:visited {
+  color: #000;
+}
+.categories {
+  height: 100px;
+}
+.category1 {
+  background: url(../img/Photo_dark2.png) no-repeat;
+}
+.category1 {
+  
+}

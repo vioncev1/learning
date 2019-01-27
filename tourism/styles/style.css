@@ -163,9 +163,6 @@ a:link {
   height: 100px;
   margin: 0px 15px;
   height: 430px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 .category1 .cat_item_inner {
   background: url(../img/photo_dark2.png) no-repeat;
@@ -174,57 +171,90 @@ a:link {
 .category2 .cat_item_inner {
   background: url(../img/zakopane.png) no-repeat;
   background-size: 100% 100%;
+  text-align: center;
 }
 .category2_link1 a {
   font-family: 'Montserrat', sans-serif;
   color: #fff;
   font-size: 26px;
   font-weight: 520;
+  display: inline-block;
+  height: 30px;
+  width: 100%;
+  margin-top: 310px;
 }
 .category2_link2 a {
   font-family: 'Montserrat', sans-serif;
   color: #ffc74a;
-  font-weight: 520;
   font-size: 14px;
+  font-weight: 520;
+  display: inline-block;
+  height: 30px;
+  width: 100%;
+  margin-top: 10px;
 }
 .category3 .cat_item_inner {
   background: url(../img/sandomierz.png) no-repeat;
   background-size: 100% 100%;
+  text-align: center;
 }
 .category3_link1 a {
-  position: absolute;
   font-family: 'Montserrat', sans-serif;
   color: #fff;
   font-weight: 520;
-  font-size: 14px;
+  font-size: 44px;
+  display: inline-block;
+  margin-top: 185px;
 }
 .category3_link2 a {
   font-family: 'Montserrat', sans-serif;
   color: #fff;
   font-weight: 520;
   font-size: 14px;
+  display: inline-block;
+  margin-top: 10px;
+}
+.category3_link3 {
+  background-color: #ffc74a;
+  height: 50px;
+  width: 200px;
+  border-radius: 25px;
+  align-items: center;
+  display: flex;
+  margin: 70px auto;
+  justify-content: center;
 }
 .category3_link3 a {
   font-family: 'Montserrat', sans-serif;
   color: #000;
   font-weight: 520;
   font-size: 14px;
+  opacity: 0.4;
 }
 .category4 .cat_item_inner {
   background: url(../img/sopot.png) no-repeat;
   background-size: 100% 100%;
+  text-align: center;
 }
 .category4_link1 a {
   font-family: 'Montserrat', sans-serif;
   color: #fff;
   font-size: 26px;
   font-weight: 520;
+  display: inline-block;
+  height: 30px;
+  width: 100%;
+  margin-top: 315px;
 }
 .category4_link2 a {
   font-family: 'Montserrat', sans-serif;
   color: #ffc74a;
   font-weight: 520;
   font-size: 14px;
+  display: inline-block;
+  height: 30px;
+  width: 100%;
+  margin-top: 5px;
 }
 .category5 .cat_item_inner {
   background: url(../img/photo_dark1.png) no-repeat;
@@ -233,12 +263,23 @@ a:link {
 .container {
   margin: 0 auto;
   width: 1200px;
-  padding: 0 15px;
+  padding: 0 200px;
+}
+.go_to p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 510;
+  font-size: 30px;
+  color: #606f81;
+  text-align: center;
 }
 .container_fluid {
   margin: 0 auto;
   width: 100%;
   padding: 0 15px;
+}
+.mid_search {
+  width: 800px;
+  margin: auto;
 }
 input[type="search"] {
   height: 60px;
@@ -257,6 +298,78 @@ input[type="submit"] {
   border: none;
   margin-left: -40px;
 }
-.mid_search {
+.container_link {
+  display: flex;
+  margin-top: 20px;
+  width: 800px;
+}
+.wrapper_left_link{
+  display: flex;
+}
+.wrapper_right_link{
+  display: flex;
+  margin-left: 172px;
+}
+.container_link div>div {
+  width: 88px;
+  margin-right: 20px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 14px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 510;
+  font-size: 14px;
+}
+.container_link .left_link:hover {
+  background-color: #ffc74a;
+}
+.left_link {
+  background-color: #bdc8d9;
+}
+.left_link a {
+  color: #fff;
+}
+.right_link {
+  border: 1px solid #bdc8d9;
+}
+.right_link a {
+  color: #8d97a5;
+}
+.offers_wrapper {
+  width: 1200px;
+  height: 760px;
+  margin: 30px -200px 0 -200px;
+  }
+.offers_wrapper2 {
+  width: 1200px;
+  display: flex;
+  align-items: center;
+}
+.offers_wrapper3 {
+  width: 1200px;
+  display: flex;
+  align-items: center;
+}
+.all_offers {
+  width: 370px;
+  height: 350px;
+  margin: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 5px;
+}
+.offers_img {
+  height: 170px;
+  width: 350px;
+  background-color: black;
+  margin-top: -160px;
+  border-radius: 5px;
+}
+.all_offers p {
+  display: flex;
 
 }

@@ -361,15 +361,12 @@ input[type="submit"] {
   justify-content: center;
   background-color: white;
   border-radius: 5px;
+  flex-direction: column;
 }
 .offers_img {
   height: 170px;
   width: 350px;
   background-color: black;
-  margin-top: -160px;
   border-radius: 5px;
-}
-.all_offers p {
-  display: flex;
-
+  margin-top: -50px;
 }

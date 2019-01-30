@@ -421,7 +421,9 @@ input[type="submit"] {
   opacity: 0.4;
 }
 .footer1 {
-  background: url('../img/SAN.png') right no-repeat;
+  background: url('../img/IERZ.png') right no-repeat;
+  height: 897px;
+  padding-top: 50px;
 }
 .top_text {
   text-align: center;
@@ -485,7 +487,6 @@ input[type="submit"] {
   margin-left: 20px;
 }
 .footer2 {
-  margin-top: 120px;
   background: url('../img/BGenjoy.png');
   height: 640px;
   padding-top: 90px;

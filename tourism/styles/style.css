@@ -400,7 +400,6 @@ input[type="submit"] {
 }
 .button_item2 {
   color: #606f81;
-
   opacity: 0.6;
 }
 .button_item:hover {
@@ -420,4 +419,134 @@ input[type="submit"] {
   margin-top: -10px;
   margin-bottom: 30px;
   opacity: 0.4;
+}
+.footer1 {
+  background: url('../img/SAN.png') right no-repeat;
+}
+.top_text {
+  text-align: center;
+  color: #606f81;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 50px;
+}
+.left_box .sando {
+  color: #f8c759;
+  font-size: 26px;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+}
+.footer_button {
+  width: 215px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #ffc74a;
+  text-align: center;
+  padding-top: 2.5%;
+  font-size: 16px;
+  font-weight: 510;
+  margin-top: 50px;
+}
+.footer_button a {
+  text-decoration: none;
+  color: #606f81;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  opacity: 0.4;
+}
+.left_box P {
+  color: #606f81;
+  line-height: 2;
+  font-family: 'Montserrat', sans-serif;
+}
+.small_wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+.mid_wrapper {
+  display: flex;
+}
+.left_box {
+  width: 600px;
+}
+.border {
+  border: 15px solid #ffc74a;
+  height: 550px;
+  width: 550px;
+  margin-top: -510px;
+  margin-left: 660px;
+}
+.right_img {
+  background: url('../img/explore.png') no-repeat;
+  height: 550px;
+  width: 550px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.footer2 {
+  margin-top: 120px;
+  background: url('../img/BGenjoy.png');
+  height: 640px;
+  padding-top: 90px;
+  text-align: center;
+}
+.p {
+  font-size: 88px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+}
+.button_footer2 {
+  width: 155px;
+  height: 45px;
+  border-radius: 25px;
+  background-color: #ffc74a;
+  padding-top: 13px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 510;
+  margin: auto;
+  margin-top: -50px;
+}
+.button_footer2 a {
+  text-decoration: none;
+  color: #606f81;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  opacity: 0.4;
+  font-size: 14px;
+}
+.p2 {
+  font-size: 16px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 510px;
+  margin-top: 50px;
+}
+.p2 .wrapper_a {
+  color: #ffc74a;
+  text-decoration: underline;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 510px;
+}
+.last_footer {
+  background: url('../img/POLIND123.png') center no-repeat;
+  height: 500px;
+  align-items: center;
+  padding-top: 200px;
+}
+.footer_logo {
+  background: url('../img/logo.png') no-repeat;
+  width: 55px;
+  height: 60px;
+  margin: auto;
+}
+.last_footer p {
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color: #606f81;
+  text-align: center;
 }

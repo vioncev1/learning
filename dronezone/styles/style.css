@@ -370,7 +370,7 @@ body {
   margin-bottom: -10px;
 }
 .email {
-  background: url('../img/email_bg.png');
+  background: url('../img/email_bg.png') center center no-repeat;
   height: 490px;
   padding-top: 160px;
 }
@@ -388,7 +388,8 @@ body {
   color: #fff;
 }
 input[type="email"] {
-  background-color: transparent;
+  border: 0.6px solid #fff;
+  background: rgba(255, 255, 255, 0.3);
   height: 50px;
   width: 300px;
   border-radius: 25px;
@@ -397,7 +398,6 @@ input[type="email"] {
   font-weight: 600;
   padding-left: 40px;
   color: #fff;
-  border: none;
 }
 input[type="submit"] {
   background: #fff;

@@ -107,7 +107,7 @@ input[type="submit"] {
   margin-top: -70px;
   justify-content: space-around;
   align-items: center;
-  box-shadow: 0 0 30px rgba(0,0,0,0.2)
+  box-shadow: 0 0 30px rgba(0,0,0,0.2);
 }
 .amount_items {
   text-align: center;
@@ -166,30 +166,70 @@ input[type="submit"] {
   width: 770px;
   height: 362px;
   margin: 15px;
+  padding: 30px 30px;
+  position: relative;
+}
+.number_amp {
+  background: url('../img/number.png') center center no-repeat;
+  width: 82px;
+  height: 45px;
+  display: flex;
+}
+.portfolio .number_boats {
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 40px;
+}
+.number_text {
+  position: absolute;
+  bottom: 10px;
+  opacity: 0.9;
+}
+.portfolio .number_text1 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 5px;
+  text-align: left;
+}
+.portfolio .number_text2 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: left;
 }
 .img2 {
   background: url('../img/img2.png') center center no-repeat;
   width: 370px;
   height: 362px;
   margin: 15px;
+  padding: 30px 30px;
+  position: relative;
 }
 .img3 {
   background: url('../img/img3.png') center center no-repeat;
   width: 370px;
   height: 362px;
   margin: 15px;
+  padding: 30px 30px;
+  position: relative;
 }
 .img4 {
   background: url('../img/img4.png') center center no-repeat;
   width: 370px;
   height: 362px;
   margin: 15px;
+  padding: 30px 30px;
+  position: relative;
 }
 .img5 {
   background: url('../img/img5.png') center center no-repeat;
   width: 370px;
   height: 362px;
   margin: 15px;
+  padding: 30px 30px;
+  position: relative;
 }
 .button_portfolio {
   width: 310px;
@@ -255,18 +295,22 @@ input[type="submit"] {
   text-align: center;
 }
 .preview1 {
-  font-size: 24px;
+  font-size: 30px;
   font-family: 'Myriad Pro Regular', sans-serif;
   color: dimgrey;
   margin-top: 80px;
 }
 .preview2 {
-  font-size: 14px;
+  font-size: 16px;
   font-family: 'Myriad Pro Regular', sans-serif;
   color: dimgrey;
 }
 .wrapper_preview_img1 {
   margin-top: 80px;
+  color: #fff;
+}
+.wrapper_preview_img1 p {
+  opacity: 0.9;
 }
 .box_preview_img1 {
   display: flex;
@@ -276,29 +320,85 @@ input[type="submit"] {
   height: 340px;
   width: 574px;
   margin: 15px;
+  position: relative;
+  padding: 30px 25px;
+  font-family: 'Myriad Pro Regular', sans-serif;
+}
+.price_boats {
+  background: #e7434e;
+  border-radius: 5px;
+  height: 40px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.price_boats p {
+  font-size: 16px;
+  font-weight: 600;
+}
+.info_boats {
+  position: absolute;
+  bottom: 10px;
+  text-align: left;
+}
+.boats_name p {
+  line-height: 0px;
+  font-size: 30px;
+  font-weight: 100
+}
+.wrapper_info_boats {
+  display: flex;
+}
+.map_marker {
+  background: url('../img/map_marker.png') center left no-repeat;
+  height: 40px;
+  width: 240px;
+  display: flex;
+}
+.map_marker p {
+  margin: auto 25px;
+}
+.account {
+  background: url('../img/account.png') center left no-repeat;
+  height: 40px;
+  width: 240px;
+  display: flex;
+}
+.account p {
+  margin: auto 35px;
 }
 .preview_img2 {
   background: url('../img/preview_img2.png') center center no-repeat;
   height: 340px;
   width: 574px;
   margin: 15px;
+  position: relative;
+  padding: 30px 25px;
+  font-family: 'Myriad Pro Regular', sans-serif;
 }
 .preview_img3 {
   background: url('../img/preview_img3.png') center center no-repeat;
   height: 340px;
   width: 574px;
   margin: 15px;
+  position: relative;
+  padding: 30px 25px;
+  font-family: 'Myriad Pro Regular', sans-serif;
 }
 .preview_img4 {
   background: url('../img/preview_img4.png') center center no-repeat;
   height: 340px;
   width: 574px;
   margin: 15px;
+  position: relative;
+  padding: 30px 25px;
+  font-family: 'Myriad Pro Regular', sans-serif;
 }
 .button_preview {
   width: 230px;
   height: 60px;
-  border: 1px solid dimgrey;
+  border: 1px solid silver;
   border-radius: 5px;
   margin: auto;
   margin-top: 100px;
@@ -309,10 +409,10 @@ input[type="submit"] {
 .button_preview a {
   text-decoration: none;
   font-family: 'Myriad Pro Regular', sans-serif;
-  color: dimgrey;
+  color: #000;
   font-size: 14px;
   font-weight: 600;
-  padding: 20px 45px 23px 45px;
+  padding: 20px 42px 23px 45px;
 }
 .wrapper_footer {
   background: url('../img/footer_bg.png') center center repeat-x;

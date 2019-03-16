@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+.top {
+  background: url('../images/bgtop.png') center center no-repeat;
+  height: 950px;
+  padding: 30px 130px;
+}
+.top a {
+  color: #fff;
+}
+.header {
+  margin-right: 65px;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'raleway medium', sans-serif;
+}
+.logo a {
+  font-size: 28px;
+}
+.menu {
+  display: flex;
+}
+.menu_offers {
+  width: 470px;
+  height: 30px;
+  border-right: 1px solid #fff;
+  opacity: 0.7;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.menu_offers a {
+  margin-right: 52px;
+}
+.menu_log {
+  width: 200px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+.menu_log>a {
+  margin-left: 52px;
+  font-weight: 600;
+}
+.register {
+  height: 40px;
+  width: 160px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  margin-left: 42px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+}
+.register a {
+  padding: 10px 30px;
+}
+.mid {
+  width: 100%;
+  margin-top: 100px;
+  text-align: center;
+  font-family: 'raleway medium', sans-serif;
+}
+.mid_slogan_one {
+  color: #fff;
+  font-size: 52px;
+  margin-top: 270px;
+  margin-bottom: 15px;
+}
+.mid_slogan_two {
+  color: #fff;
+  font-size: 15px;
+  opacity: 0.6;
+  margin-bottom: 60px;
+}
+.mid input {
+  height: 45px;
+}
+.wrapper_mid_input {
+  display: flex;
+  justify-content: center;
+}
+input[type="search"] {
+  width: 380px;
+  border-radius: 5px 0 0 5px;
+  padding-left: 10px;
+  font-size: 17px;
+  color: gray;
+  border: none;
+}
+.search_ico {
+  height: 45px;
+  width: 20px;
+  background: url('../images/search_ico.png') center center no-repeat;
+  margin: 0 10px 0 -50px;
+  display: flex;
+}
+.search_ico a {
+  padding: 0 10px;
+}
+input[list="location"] {
+  width: 200px;
+  padding-left: 10px;
+  color: gray;
+  font-size: 17px;
+  border: none;
+  border-left: 1px solid #d3d3d3;
+}
+.wrapper_button {
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-left: 1px solid #d3d3d3;
+  width: 174px;
+  border-radius: 0 5px 5px 0;
+}
+.button {
+  height: 80%;
+  width: 90%;
+  border-radius: 5px;
+  background: #3885e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button a {
+  padding: 9px 42px;
+}
+.scroll_wrapper {
+  margin-top: 310px;
+  opacity: 0.8;
+}
+.scroll_wrapper p {
+  color: white;
+  text-align: center;
+  font-family: 'raleway medium', sans-serif;
+  font-size: 16px;
+}
+.scroll {
+  background: url('../images/scroll.png')center center no-repeat;
+  width: 40px;
+  height: 40px;
+  margin: -5px auto 0 auto;
+}

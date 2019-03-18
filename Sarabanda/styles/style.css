@@ -150,3 +150,66 @@ input[list="location"] {
   height: 40px;
   margin: -5px auto 0 auto;
 }
+.information {
+  height: 550px;
+  width: 100%;
+}
+.wrapper_header_inf {
+  border-bottom: 1px solid gray;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+.header_inf {
+  height: 100px;
+  width: 1200px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.header_inf a {
+  font-size: 18px;
+  color: dimgray;
+  font-family: 'raleway medium', sans-serif;
+}
+.header_inf p {
+  margin: 0 45px 0 45px;
+  font-family: 'raleway medium', sans-serif;
+}
+.all_categories {
+  display: flex;
+  align-items: center;
+}
+.all_categories a {
+  margin-left: 90px;
+  border: 2.5px solid gray;
+  border-radius: 10px;
+  padding: 15px 25px;
+  font-family: 'raleway medium', sans-serif;
+  font-weight: 600;
+  opacity: 0.9.
+}
+.header_inf a:hover {
+  color: #3885e5;
+}
+.header_inf p {
+  color: gray;
+}
+.mid_inf {
+  width: 970px;
+  margin: auto;
+}
+.question {
+  font-size: 36px;
+  color: dimgray;
+  text-align: center;
+  font-family: 'raleway medium', sans-serif;
+  margin-top: 90px;
+}
+.lorem {
+  margin: 55px 12px 0 12px;
+  font-size: 18px;
+  color: gray;
+  text-align: center;
+  font-family: 'raleway medium', sans-serif;
+}

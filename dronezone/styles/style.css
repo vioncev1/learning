@@ -292,14 +292,19 @@ body {
   width: 55px;
   height: 55px;
 }
-.portfolio1 {
-  height: 640px;
-  display: flex;
+.wrapper_portfolio1 {
   background: #f6f6f6;
 }
-.portfolio1 .video {
+.portfolio1 {
+  height: 640px;
+  width: 1900px;
+  display: flex;
+  background: #f6f6f6;
+  margin: auto;
+}
+.video1 {
   background: url('../img/video1.png') center center no-repeat;
-  width: 960px;
+  width: 950px;
   height: 640px;
 }
 .video_text1 {
@@ -338,15 +343,17 @@ body {
   font-weight: 520;
   color: #fff;
 }
-.portfolio2 .video {
+.video2 {
   background: url('../img/video2.png') center center no-repeat;
-  width: 960px;
+  width: 950px;
   height: 640px;
 }
 .portfolio2 {
   height: 640px;
   display: flex;
   background: #f6f6f6;
+  width: 1900px;
+  margin: auto;
 }
 .video_text2{
   padding-left: 80px;
@@ -372,7 +379,9 @@ body {
 .email {
   background: url('../img/email_bg.png') center center no-repeat;
   height: 490px;
+  width: 1900px;
   padding-top: 160px;
+  margin: auto;
 }
 .central_block {
   width: 800px;
@@ -423,4 +432,11 @@ input[type="submit"] {
   font-size: 20px;
   font-weight: 600;
   padding-top: 80px;
+}
+.span1 {
+font-family: 'Proxima Nova Regular', sans-serif;
+font-size: 21px;
+font-weight: 800;
+color: black;
+opacity: 0.5;
 }

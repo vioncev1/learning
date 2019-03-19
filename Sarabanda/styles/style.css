@@ -8,18 +8,19 @@ a {
   text-decoration: none;
 }
 .wrapper_top {
-  background: #301b1a;
+  /*background: #301b1a;*/
 }
 .top {
   background: url('../images/bgtop.png') center center no-repeat;
   height: 950px;
-  padding: 30px 130px;
+  padding: 30px;
 }
 .top a {
   color: #fff;
 }
 .header {
-  margin-right: 65px;
+  width: 1680px;
+  margin: auto;
   display: flex;
   justify-content: space-between;
   font-family: 'raleway medium', sans-serif;
@@ -31,30 +32,34 @@ a {
   display: flex;
 }
 .menu_offers {
-  width: 470px;
+  width: 480px;
   height: 30px;
   border-right: 1px solid #fff;
   opacity: 0.7;
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  letter-spacing: 1px;
 }
 .menu_offers a {
   margin-right: 52px;
+  font-size: 17px;
 }
 .menu_log {
-  width: 200px;
+  width: 260px;
   height: 30px;
   display: flex;
   align-items: center;
+  opacity: 0.8;
 }
 .menu_log>a {
   margin-left: 52px;
   font-weight: 600;
+  font-size: 18px;
 }
 .register {
-  height: 40px;
-  width: 160px;
+  height: 46px;
+  width: 120px;
   border: 1px solid #fff;
   border-radius: 5px;
   margin-left: 42px;
@@ -63,7 +68,7 @@ a {
   justify-content: center;
 }
 .register a {
-  padding: 10px 30px;
+  padding: 13px 30px;
 }
 .mid {
   width: 100%;
@@ -79,27 +84,28 @@ a {
 }
 .mid_slogan_two {
   color: #fff;
-  font-size: 15px;
+  font-size: 18px;
   opacity: 0.6;
   margin-bottom: 60px;
 }
 .mid input {
-  height: 45px;
+  height: 60px;
 }
 .wrapper_mid_input {
   display: flex;
   justify-content: center;
+  margin-top: -20px;
 }
 input[type="search"] {
   width: 380px;
   border-radius: 5px 0 0 5px;
-  padding-left: 10px;
+  padding-left: 20px;
   font-size: 17px;
   color: gray;
   border: none;
 }
 .search_ico {
-  height: 45px;
+  height: 60px;
   width: 20px;
   background: url('../images/search_ico.png') center center no-repeat;
   margin: 0 10px 0 -50px;
@@ -110,7 +116,7 @@ input[type="search"] {
 }
 input[list="location"] {
   width: 200px;
-  padding-left: 10px;
+  padding-left: 20px;
   color: gray;
   font-size: 17px;
   border: none;
@@ -145,7 +151,7 @@ input[list="location"] {
   color: white;
   text-align: center;
   font-family: 'raleway medium', sans-serif;
-  font-size: 16px;
+  font-size: 18px;
 }
 .scroll {
   background: url('../images/scroll.png')center center no-repeat;
@@ -158,7 +164,7 @@ input[list="location"] {
   width: 100%;
 }
 .wrapper_header_inf {
-  border-bottom: 1px solid gray;
+  border-bottom: 2px solid lightgray;
   height: 100px;
   display: flex;
   justify-content: center;
@@ -172,7 +178,7 @@ input[list="location"] {
 }
 .header_inf a {
   font-size: 18px;
-  color: dimgray;
+  color: gray;
   font-family: 'raleway medium', sans-serif;
 }
 .header_inf p {
@@ -212,14 +218,15 @@ input[list="location"] {
   color: dimgray;
   text-align: center;
   font-family: 'raleway medium', sans-serif;
-  margin-top: 90px;
+  margin-top: 80px;
 }
 .lorem {
-  margin: 55px 12px 0 12px;
+  margin: 35px 12px 0 12px;
   font-size: 18px;
   color: gray;
   text-align: center;
   font-family: 'raleway medium', sans-serif;
+  line-height: 30px;
 }
 .preview {
   height: 550px;
@@ -244,13 +251,14 @@ input[list="location"] {
   font-size: 38px;
   font-family: 'raleway medium', sans-serif;
   color: white;
-  margin-top: 90px;
+  margin-top: 80px;
 }
 .small_text_video {
   font-size: 19px;
   font-family: 'raleway medium', sans-serif;
   color: white;
-  margin-top: 70px;
+  margin-top: 45px;
+  line-height: 35px;
 }
  .learn_more a {
   color: white;
@@ -261,7 +269,7 @@ input[list="location"] {
   font-family: 'raleway medium', sans-serif;
 }
 .learn_more {
- margin-top: 110px;
+ margin-top: 90px;
 }
 .video {
   background: url('../images/video.png')center center no-repeat;
@@ -338,17 +346,135 @@ img {
   color: lightgray;
 }
 .feature_lorem p {
-  margin-left: 20px;
+  width: 570px;
   font-size: 20px;
   font-family: 'raleway medium', sans-serif;
   margin-left: 50px;
   color: gray;
+  line-height: 30px;
 }
 .link_read_more a {
-  margin-left: 20px;
   font-weight: 600;
-  font-size: 22px;
+  font-size: 20px;
   color: #3885e5;
   font-family: 'raleway medium', sans-serif;
   margin-left: 50px;
+}
+.wrapper_masters {
+  background: #000;
+  height: 550px;
+  width: 100%;
+  margin-top: 180px;
+}
+.masters {
+  background: url('../images/s-symu.png') center center no-repeat;
+  height: 550px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+.wrapper_text {
+  width: 715px;
+  height: 550px;
+  margin-left: 540px;
+  padding-right: 70px;
+}
+.text_1 {
+  font-family: 'bebasneue', Sans-serif;
+  color: gray;
+  font-size: 180px;
+  margin-top: -120px;
+  opacity: 0.5;
+}
+.text_2 {
+  height: 100px;
+  width: 700px;
+  margin-top: -280px;
+  font-family: 'raleway medium', sans-serif;
+  font-size: 20px;
+  line-height: 35px;
+  opacity: 0.8;
+}
+.wrapper_text_3 {
+  display: flex;
+  align-items: center;
+  float: right;
+  font-family: 'raleway medium', sans-serif;
+  margin-top: 100px;
+}
+.text_3 {
+  margin-left: 20px;
+  opacity: 0.8;
+  line-height: 8px;
+}
+.name {
+  font-size: 18px;
+}
+.inf_name {
+  font-size: 18px;
+  color: silver;
+}
+.newsletter {
+  height: 440px;
+  width: 100%;
+}
+.wrapper_subscribe {
+  border-bottom: 1px solid lightgray;
+}
+.subscribe {
+  width: 970px;
+  height: 360px;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+}
+.subscribe_text_1 {
+  font-size: 38px;
+  color: dimgray;
+  font-family: 'raleway medium', sans-serif;
+  margin-top: 90px;
+}
+.subscribe_text_2 {
+  font-size: 18px;
+  color: gray;
+  font-family: 'raleway medium', sans-serif;
+  margin-top: 40px;
+  font-weight: 550;
+  line-height: 30px;
+  opacity: 0.8;
+}
+.subscribe_buttons {
+  margin-top: 80px;
+}
+input[class="subscribe_email"] {
+  width: 380px;
+  height: 44px;
+  padding-left: 15px;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  font-size: 16px;
+  color: gray;
+}
+input[class="subscribe_button"] {
+  width: 150px;
+  height: 44px;
+  background: #3885e5;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-left: -15px;
+  font-size: 16px;
+}
+.footer {
+  height: 80px;
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: gray;
+  font-family: 'raleway medium', sans-serif;
+  font-size: 18px;
+  font-weight: 550;
+  opacity: 0.8;
 }

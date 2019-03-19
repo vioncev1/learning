@@ -72,11 +72,119 @@ body {
   padding: 15px 20px;
 }
 .button_top a {
-  background: linear-gradient(to bottom left, #e06900, #cb0035);
+  background: linear-gradient(to top left, #e06900, #cb0035);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 17px;
   font-family: 'Myriad Pro Regular', sans-serif;
   font-weight: 600;
   padding: 15px 20px;
+}
+.messages {
+  height: 680px;
+  width: 100%;
+}
+.wrapper_message {
+  width: 1400px;
+  height: 680px;
+  margin: auto;
+  background: url('../images/messages.png') left no-repeat;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+.message {
+  width: 640px;
+  margin-right: 100px;
+}
+.easy_message {
+  font-size: 54px;
+  font-family: 'Myriad Pro Regular', sans-serif;
+  font-weight: 800;
+  opacity: 0.8;
+  margin-top: 200px;
+}
+.point {
+  background: linear-gradient(to bottom left, #e06900, #cb0035);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Myriad Pro Regular', serif;
+  font-weight: 600;
+}
+.easy_lorem {
+  color: dimgray;
+  font-family: 'Myriad Pro Regular', sans-serif;
+  font-size: 18px;
+  line-height: 34px;
+  margin-top: -20px;
+}
+.contacts {
+  height: 680px;
+  width: 100%;
+}
+.wrapper_contact {
+  width: 1400px;
+  height: 680px;
+  margin: auto;
+  background: url('../images/contact.png') right no-repeat;
+  margin-top: 20px;
+}
+.contact {
+  width: 640px;
+  padding-top: 160px;
+  margin-left: 60px;
+}
+.touch_contact {
+  font-size: 54px;
+  font-family: 'Myriad Pro Regular', sans-serif;
+  font-weight: 800;
+  opacity: 0.8;
+
+}
+.touch_lorem {
+  color: dimgray;
+  font-family: 'Myriad Pro Regular', sans-serif;
+  font-size: 18px;
+  line-height: 34px;
+  margin-top: -20px;
+}
+.wrapper_comments {
+  height: 822px;
+  border-top: 2px solid lightgray;
+  margin-top: 120px;
+}
+.comments {
+  width: 1200px;
+  height: 822px;
+  margin: auto;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.comment_top {
+  font-size: 52px;
+  font-family: 'Myriad Pro Regular', sans-serif;
+  font-weight: 800;
+  opacity: 0.8;
+}
+.container_comments {
+  width: 1200px;
+  display: flex;
+}
+.comment_1 {
+  width: 370px;
+  margin: 0 10px;
+}
+.comment_lorem {
+  height: 210px;
+  width: 370px;
+  border: 1px solid gray;
+  padding: 20px 30px 20px 30px;
+}
+.site {
+  background: linear-gradient(to bottom left, #e06900, #cb0035);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Myriad Pro Regular', sans-serif;
+  font-weight: 600;
 }

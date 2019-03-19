@@ -234,8 +234,6 @@ input[type="submit"] {
 .button_portfolio {
   width: 310px;
   height: 60px;
-  border-radius: 10px;
-  border: 1px solid gray;
   color: #fff;
   margin: auto;
   margin-top: 100px;
@@ -246,6 +244,8 @@ input[type="submit"] {
   font-size: 14px;
 }
 .link_button_portfolio {
+  border-radius: 10px;
+  border: 1px solid gray;
   color: dimgrey;
   text-decoration: none;
   padding: 22px 34px 22px 34px;
@@ -398,8 +398,6 @@ input[type="submit"] {
 .button_preview {
   width: 230px;
   height: 60px;
-  border: 1px solid silver;
-  border-radius: 5px;
   margin: auto;
   margin-top: 100px;
   display: flex;
@@ -407,6 +405,8 @@ input[type="submit"] {
   align-items: center;
 }
 .button_preview a {
+  border: 1px solid silver;
+  border-radius: 5px;
   text-decoration: none;
   font-family: 'Myriad Pro Regular', sans-serif;
   color: #000;
